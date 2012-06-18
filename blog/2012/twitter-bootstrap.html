@@ -1,0 +1,68 @@
+<!doctype html><!--[if lt IE 7]><html class="no-js ie6 oldie" lang="en"><![endif]--><!--[if IE 7]><html class="no-js ie7 oldie" lang="en"><![endif]--><!--[if IE 8]><html class="no-js ie8 oldie" lang="en"><![endif]--><html><head><meta charset="utf-8"><meta name="description" content="Персональный сайт и блог Андрея Мукомолова" /><meta name="keywords" content="Андрей Мукомолов, Andrey Mukomolov, sir_Gollum, разработка, технологии, web, python, django" /><meta name="author" content="Андрей Мукомолов"><!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]--><title>Андрей Мукомолов // Twitter Bootstrap</title><link href="/blog/atom.xml" rel="alternate" title="Андрей Мукомолов" type="application/atom+xml"/><link rel="stylesheet" href="/media/css/imports.css"><script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script></head><body><div class="container"><nav class="pretty navbar"><h1 class="logo"><a href="/index.html">Андрей Мукомолов</a></h1><ul><li class="active" ><a href="/blog/blog.html">
+					Блог
+				</a></li></ul></nav>
+            
+<section class="row"">
+		<div class="one columns"></div>
+  		<div class="ten columns">
+
+
+    
+    <h1>Twitter Bootstrap</h1>    
+    <span class="postdate">18.06.2012, вечер</span>
+    
+    <div class="tags">Категории: <a href="/blog/tags/tools.html">tools</a> и <a href="/blog/tags/web.html">web</a>.</div>
+    
+
+
+
+	
+		<!-- Hyde::Article::Begin -->
+
+<p>Занимаемся тут с <a href="http://twitter.com/Yuki_Sumaguro">@YukiSamaguro</a> одним некоммерческим проектом по созданию небольшого сайта. Вообще, навыки верстальщика у меня в довольно зачаточном состоянии, поскольку много верстать не приходилось. А когда приходилось, изображал что-то совсем&nbsp;макетнообразное.</p>
+<p>А тут встала задача сделать сайт, и желательно с нуля. Соответственно, придется и дизайн придумывать, и верстать, и на js что-то накропать, и серверную часть накодить, хоть и&nbsp;простую.</p>
+<p>В своё время <a href="http://twitter.com/hellodrw">@hellodrw</a> советовал мне вёрстку изучать, начиная с <span class="caps">HTML4</span>, потом переходить к xHTML и так далее. Но ведь долго, а сайт поскорее запустить хочется. Да и не было у меня никогда особого желания становиться верстальщиком: для меня бoльшая часть работы верстальщика сводится к поиску и попыткам исправления багов в рендеринге разных браузеров, причем количество багов и несовместимостей постоянно растет. В общем, не настолько вдохновляющая работа&nbsp;:)</p>
+<p>Сначала смотрел в сторону <a href="http://sass-lang.com/"><span class="caps">SASS</span></a> и написания <span class="caps">CSS</span> с нуля, но для моего случая он не очень подходит, т.к. когда знаний не хватает, проще взять какие-то готовые наработки и разбираться с ними, по ходу меняя и дописывая под свои нужды. 
+Именно таким подходом позволяет с успехом пользоваться <a href="http://twitter.github.com/bootstrap/">Bootstrap от Twitter</a>.</p>
+<p>Bootstrap - по сути очень простая и одновременно довольно мощная штука. Это набор <span class="caps">CSS</span>-файлов и небольшая инструкуция к ним, которая позволяет довольно легко сверстать типовую сетку, используемую сегодня в большинстве сайтов. Хорошо подойдёт для блога, новостного или какого-нибудь другого контент-ориентированного сайта. Но вполне может служить отправной точкой и для чего-то более&nbsp;сложного.</p>
+<h3>Сетка</h3>
+<p>В основе Bootstrap лежит стандартная сетка шириной 960px. Сетка разбивайтся на блоки разной ширины, эти блоки можно комбинировать относительно произвольным образом, составляя колонки и секции. Колонки могут вкладываться друг в друга, образуя нужную раскладку. При разработке Bootstrap используют less, и если взять исходники на less, можно легко кастомизировать такие вещи как максимальное количество колонок (по умолчанию их 16), ширину сайта, цветовую схему и так далее - итоговые размеры и цвета подстроятся при генерации итогового&nbsp;<span class="caps">CSS</span>.</p>
+<h3>Заготовленные&nbsp;раскладки</h3>
+<p>В инструкции описаны примеры использования Bootstrap для получения типовых <span class="caps">CSS</span>-раскладок. Если сайт, который нужно сделать, подходит под какую-то на 70-80% - можно просто брать и пользоваться, немного&nbsp;доработав.</p>
+<h3>Типография</h3>
+<p>Сюда относятся заготовленные стили для заголовков, параграфов, списков, исходного кода и так далее. Эти стили также подстраиваются через less, но вполне можно подкрутить что-нибудь и в&nbsp;<span class="caps">CSS</span>.</p>
+<h3>Метки</h3>
+<p>Цветные плашки с модными скругленными углами и произвольными надписями. Делаются очень легко и&nbsp;непринужденно.</p>
+<h3>Галереи</h3>
+<p>Простая и удобная сетка для верстки сетки с фото- и видео-превью. Задается списком, подстраивается под размер контента. В инструкции, кстати, всё это демонстрируется на примере довольно удобного при верстке микросервиса <a href="http://placehold.it">placehold.it</a>, который можно использовать для генерации картинок-загрушек нужного&nbsp;размера.</p>
+<h3>Таблицы</h3>
+<p>Если нужно представить информацию в табличном виде, то и тут Bootstrap облегчит нам жизнь. Готовых вариантов стилей таблиц есть тоже несколько: &#8220;плотный&#8221;, &#8220;резреженный&#8221;, с раскраской чётных строки и без неё. Очень легко сделать локальную сортировку таблицы на js - для этого предоставлен уже готовый&nbsp;скрипт.</p>
+<h3>Формы и&nbsp;кнопки</h3>
+<p>Тут даются визуально согласованные стили для полей ввода, к которым прибавлены стили для отображения типовых состояний - успешного и ошибочного ввода, недоступности поля (read-only), и так далее. Поля, судя по примерам, легко комбинируются - например, можно сделать визуально единый компонент из checkbox и поля ввода. Кнопки с градиентами и скругленными уголками легко делаются произвольных размеров, цвета кнопок согласуются с названиями стилей (succcess, warning, и так&nbsp;далее).</p>
+<h3>Навигация</h3>
+<p>Можно использовать панель со ссылками, постоянно висящую вверху, как сделано в самой инструкции. Есть также стили для реализации закладок, овальных кнопок, breadcrumbs и&nbsp;пагинации.</p>
+<h3>Уведомления</h3>
+<p>В Bootstrap реализовано большое количество разных симпатичных всплывающих уведомлений, подсказок и popover-окон, как модальных так и обычных. К каждому типу окошек прилагается свой&nbsp;JavaScript.</p>
+<h3>Работа с&nbsp;JavaScript</h3>
+<p>Вообще говоря, Bootstrap вполне хорошо выглядит и работает и сам по себе, но при желании легко добавить работу с сайтом, созданным на его основе, из JavaScript. К Bootstrap прилагаются готовые примеры js-кода, который можно расширить и кастомизировать под свои нужды. Поставляемые плагины работают в связке с <a href="http://jquery.com/">jQuery</a> и <a href="http://ender.no.de/">Ender</a>.</p>
+<h3>Итог</h3>
+<p>Если вам, как и мне, иногда нужно верстать, но вы не занимаетесь и не планируете заниматься этим профессионально, имеет смысл посмотреть на <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a> - он может служить неплохой отправной точкой для верстки проекта. При этом не будет ощищуения того, что сайт верстал программист :)
+Ну а если вы хотите научиться верстать и ищете с чего начать - почитайте <a href="http://softwaremaniacs.org/blog/category/primer/">цикл статей Ивана Сагалаева</a> по основам блочной&nbsp;верстки.</p>
+<p>Кстати, этот сайт я тоже первоначально хотел делать с использованием Bootstrap, но в итоге решил посмотреть на другой <span class="caps">CSS</span>-фреймворк - <a href="http://www.gumbyframework.com/">Gumby</a>.</p>
+<!-- Hyde::Article::End -->
+	
+        <div id="disqus_thread"></div><script type="text/javascript">
+            var disqus_shortname = 'mukomolov';
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+		</div>
+		<div class="one columns"></div>
+</section>		
+
+            </div><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter14819374 = new Ya.Metrika({id:14819374, enableAll: true, webvisor:true}); } catch(e) {} }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script></body></html>
