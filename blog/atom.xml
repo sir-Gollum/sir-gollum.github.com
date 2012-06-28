@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Андрей Мукомолов </title><link href="http://mukomolov.com/blog/atom.xml" rel="self"/><link href="http://mukomolov.com"/><updated>2012-06-20T20:33:50Z</updated><id>http://mukomolov.com</id><entry><title>Twitter Bootstrap</title><author><name>Андрей Мукомолов</name></author><link href="http://mukomolov.com/blog/2012/twitter-bootstrap.html"/><updated>2012-06-18T20:37:48Z</updated><published>2012-06-18T20:37:48Z</published><id>http://mukomolov.com/blog/2012/twitter-bootstrap.html</id><content type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Андрей Мукомолов </title><link href="http://mukomolov.com/blog/atom.xml" rel="self"/><link href="http://mukomolov.com"/><updated>2012-06-28T21:53:05Z</updated><id>http://mukomolov.com</id><entry><title>Machine Learning complete</title><author><name>Андрей Мукомолов</name></author><link href="http://mukomolov.com/blog/2012/machine-leaning-complete.html"/><updated>2012-06-28T21:45:26Z</updated><published>2012-06-28T21:45:26Z</published><id>http://mukomolov.com/blog/2012/machine-leaning-complete.html</id><content type="html">
+       
+
+&lt;p&gt;Закончился &lt;a href=&quot;http://www.coursera.org/course/ml&quot;&gt;курс по машинному обучению&lt;/a&gt; от Coursera. То есть, для меня он закончился, а вообще работы можно сдавать до первого&amp;nbsp;августа.&lt;/p&gt;
+&lt;p&gt;Курс понравился. Изначально я на него записался, так как хотел использовать машинное обучение в паре своих проектов. Теперь лучше понимаю, что с помощью машинного обучения можно сделать и на какой результат&amp;nbsp;рассчитывать.&lt;/p&gt;
+&lt;p&gt;Еще одно впечатление, которое впервые возникло от университетского курса искусственного интеллекта, и которое повторилось сейчас - удивление, насколько всё-таки простые и понятные идеи, подкрепленные математическим аппаратом, заложены в этих алгоритмах. Взять хотя бы градиентный спуск - его же вообще на первом курсе&amp;nbsp;проходили!&lt;/p&gt;
+&lt;p&gt;Курс рассчитан в первую очередь на будущих пользователей разных библиотек машинного обучения, а не на разработчиков собственных алгоритмов. Отсюда и низкие входные требования: не требуется знание теории вероятности, статистики, дифференциального исчисления и так далее. Не возьмусь утверждать, что отлично помню всё перечисленное, но при наличии более подробных опциональных доказательств курс стал бы еще&amp;nbsp;интереснее.&lt;/p&gt;
+&lt;p&gt;Несколько пунктов о том, чем курс был мне&amp;nbsp;полезен:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Узнал несколько алгоритмов машинного обучения и областей их применения, получил несколько новых&amp;nbsp;идей.&lt;/li&gt;
+&lt;li&gt;Разобрался с оптимизацией вычислений путем векторизации операций. Полезная техника, на современных &lt;span class=&quot;caps&quot;&gt;GPU&lt;/span&gt; наверняка здорово будет&amp;nbsp;работать.&lt;/li&gt;
+&lt;li&gt;Узнал несколько библиотек для машинного обучения и для &lt;span class=&quot;caps&quot;&gt;NLP&lt;/span&gt;. От прохождения курса напрямую это не зависит, но теперь есть понимание принципов их&amp;nbsp;работы.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Из минусов курса я бы отметил качество звука, которое не то чтобы совсем плохое, но примерно как в большинстве русских подкастов. В принципе, на четвертой неделе к этому привыкаешь, но поначалу раздражает. Ну и хотелось бы более глубокие опциальные&amp;nbsp;лекции.&lt;/p&gt;
+&lt;p&gt;И чтобы этот пост был чуть более полезным, чем личное мнение, приведу несколько&amp;nbsp;ссылок:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.cosmolearning.com/courses/machine-learning/&quot;&gt;Другой курс по машинному обучению&lt;/a&gt;, того же&amp;nbsp;автора.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://work.caltech.edu/previous.html&quot;&gt;Еще один курс по машинному обучению&lt;/a&gt; от Калифорнийского технологического&amp;nbsp;института.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://pyml.sourceforge.net/&quot;&gt;Библиотека машинного обучения для python&lt;/a&gt; и &lt;a href=&quot;http://blog.explainmydata.com/2012/06/ntrain-24853-ntest-25147-ncorrupt.html&quot;&gt;статья&lt;/a&gt; с анализом производительности разных алгоритмов, где используется эта библиотека. Вернее, там даже цикл&amp;nbsp;статей. &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://nltk.org/&quot;&gt;&lt;span class=&quot;caps&quot;&gt;NLP&lt;/span&gt;-библиотека для python&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+   </content></entry><entry><title>Twitter Bootstrap</title><author><name>Андрей Мукомолов</name></author><link href="http://mukomolov.com/blog/2012/twitter-bootstrap.html"/><updated>2012-06-18T20:37:48Z</updated><published>2012-06-18T20:37:48Z</published><id>http://mukomolov.com/blog/2012/twitter-bootstrap.html</id><content type="html">
        
 
 &lt;p&gt;Занимаемся тут с &lt;a href=&quot;http://twitter.com/Yuki_Sumaguro&quot;&gt;@Yuki_Sumaguro&lt;/a&gt; одним некоммерческим проектом по созданию небольшого сайта. Вообще, навыки верстальщика у меня в довольно зачаточном состоянии, поскольку много верстать не приходилось. А когда приходилось, изображал что-то совсем&amp;nbsp;макетнообразное.&lt;/p&gt;
