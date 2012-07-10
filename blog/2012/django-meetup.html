@@ -1,0 +1,47 @@
+<!doctype html><!--[if lt IE 7]><html class="no-js ie6 oldie" lang="en"><![endif]--><!--[if IE 7]><html class="no-js ie7 oldie" lang="en"><![endif]--><!--[if IE 8]><html class="no-js ie8 oldie" lang="en"><![endif]--><html><head><meta charset="utf-8"><meta name="description" content="Персональный сайт и блог Андрея Мукомолова" /><meta name="keywords" content="Андрей Мукомолов, Andrey Mukomolov, sir_Gollum, разработка, технологии, web, python, django" /><meta name="author" content="Андрей Мукомолов"><!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]--><title>Андрей Мукомолов // Про Moscow Django Meetup</title><link href="/blog/atom.xml" rel="alternate" title="Андрей Мукомолов" type="application/atom+xml"/><link rel="stylesheet" href="/media/css/imports.css"><script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script></head><body><div class="container"><nav class="pretty navbar"><h1 class="logo"><a href="/index.html">Андрей Мукомолов</a></h1><ul><li class="active" ><a href="/blog/blog.html">
+					Блог
+				</a></li></ul></nav>
+            
+<section class="row"">
+		<div class="one columns"></div>
+  		<div class="ten columns">
+
+
+    
+    <h1>Про Moscow Django Meetup</h1>    
+    <span class="postdate">10.07.2012, вечер</span>
+    
+    <div class="tags">Категории: <a href="/blog/tags/python.html">python</a>.</div>
+    
+
+
+
+	
+		<!-- Hyde::Article::Begin -->
+
+<p>До недавнего времени я очень завидовал украинцам, потому что у них было довольно развитое сообщество питонистов. Проводилась куча конференций, из того что помню с ходу - <a href="http://kyivpy.org.ua/">Kiyv.py</a>, <a href="http://kharkivpy.org.ua/">KharkivPy</a>, <a href="http://ua.pycon.org/">PyConUA</a>, наверняка жизнь питоновской тусовки бурлила и на менее официальных встречах. В Москве же ничего подобного и близко не было, хотя довольно много питонистов посещало <a href="http://events.yandex.ru/events/yasubbotnik/">Яндекс.Субботники</a>, <a href="http://events.yandex.ru/events/yac/">YaC</a>, <a href="http://www.devconf.ru/">DevConf</a> и прочие конференции. Как оказалось, завидовал не я&nbsp;один.</p>
+<p>В феврале-марте разработчики из веб-студии <a href="http://futurecolors.ru/">FutureColors</a> собрались, создали <a href="http://www.facebook.com/groups/367203686641943/">группу в фейсбуке</a> и стали зазывать всех заинтересованных на первую неформальную встречу Django-разработчиков. Я в тот момент был довольно далеко от Москвы, поэтому о встрече узнал уже после того, как они выложили отчет на хабре. С тех пор прошло еще три встречи, на двух из которых я побывал, вроде бы устоялось место проведения, а на днях появился <a href="http://www.facebook.com/groups/367203686641943/">сайт</a>.</p>
+<p>На четвертой встрече, которая прошла вчера, было три&nbsp;доклада:</p>
+<ul>
+<li><a href="http://braintrace.ru/talks/abstracting-http.ru.html#1">Обработка <span class="caps">HTTP</span> запросов в Python</a>. Доклад про то, как можно отделить бизнес-логику приложения от используемого протокола. Грубо говоря, вместо передачи параметра request и вытягивания оттуда нужных данных в обработчике, определяется преобразование, после которого данные попадают в обработчик уже в нужном виде. Реализация в виде библиотеки <a href="https://speakerdeck.com/u/moscowdjango/p/django-continuous-integration">доступна на гитхабе</a>, надо будет посмотреть, когда дойдут&nbsp;руки.</li>
+<li><a href="https://speakerdeck.com/u/moscowdjango/p/django-continuous-integration">Django и Continuous Integration</a>. Про то, как использовать <a href="http://jenkins-ci.org/">Jenkins</a> для сборки и тестирования Django-проектов, и немного упомянуто про набирающую популярность в OpenSource-проектах <a href="http://travis-ci.org/">Travis</a>. С тех пор, как я последний раз настраивал Jenkins для джанги, там всё сильно упростилось: появился <a href="https://github.com/kmmbvnr/django-jenkins">django-jenkins</a> и <a href="https://wiki.jenkins-ci.org/display/JENKINS/ShiningPanda+Plugin">удобный плагин</a> к Jenkins для работы с питоновскими проектами. Я в своё время делал это всё по рабоче-крестьянски, shell-скриптами, надо бы&nbsp;переделать.</li>
+<li>Настройка Django-проекта с нуля при использовании PyCharm <span class="caps">IDE</span>. Автор обещал сделать скринкаст, когда выложит - тут появится ссылка. Пару вещей я не знал, например, как прикрутить к PyCharm проверку через&nbsp;pep8.</li>
+</ul>
+<p>Также на вчерашней встрече уже более активно обсуждали возможность участия сообщества в Django Dash, который скорее всего пройдёт 17-19 августа. Интересно будет&nbsp;попробовать.</p>
+<!-- Hyde::Article::End -->
+	
+        <div id="disqus_thread"></div><script type="text/javascript">
+            var disqus_shortname = 'mukomolov';
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+		</div>
+		<div class="one columns"></div>
+</section>		
+
+            </div><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter14819374 = new Ya.Metrika({id:14819374, enableAll: true, webvisor:true}); } catch(e) {} }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script></body></html>
