@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Андрей Мукомолов </title><link href="http://mukomolov.com/blog/atom.xml" rel="self"/><link href="http://mukomolov.com"/><updated>2012-08-04T14:19:09Z</updated><id>http://mukomolov.com</id><entry><title>Про virtualenv</title><author><name>Андрей Мукомолов</name></author><link href="http://mukomolov.com/blog/2012/virtualenv.html"/><updated>2012-08-04T12:16:54Z</updated><published>2012-08-04T12:16:54Z</published><id>http://mukomolov.com/blog/2012/virtualenv.html</id><content type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Андрей Мукомолов </title><link href="http://mukomolov.com/blog/atom.xml" rel="self"/><link href="http://mukomolov.com"/><updated>2012-08-04T15:49:38Z</updated><id>http://mukomolov.com</id><entry><title>Про virtualenv</title><author><name>Андрей Мукомолов</name></author><link href="http://mukomolov.com/blog/2012/virtualenv.html"/><updated>2012-08-04T12:16:54Z</updated><published>2012-08-04T12:16:54Z</published><id>http://mukomolov.com/blog/2012/virtualenv.html</id><content type="html">
        
 
 &lt;p&gt;Есть куча способов установки питоновских пакетов. Какие-то более удобны, какие-то менее, в зависимости от ситуации. Опишу способ, который мне оказался удобен в большинстве&amp;nbsp;случаев.&lt;/p&gt;
@@ -40,11 +40,7 @@ handle_virtualenv&lt;span class=&quot;o&quot;&gt;(){&lt;/span&gt;
       &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$VIRTUALENV_PATH&lt;/span&gt;
       &lt;span class=&quot;nb&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$VIRTUALENV_PATH&lt;/span&gt;/bin/activate
       &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;&amp;gt; Virtualenv `basename $VIRTUALENV_PATH` activated&amp;quot;&lt;/span&gt;
-      &lt;span class=&quot;c&quot;&gt;#django bash completion&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; -f ~/.python-envs/django_bash_completion &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
-        . ~/.python-envs/django_bash_completion
-      &lt;span class=&quot;k&quot;&gt;fi&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;    fi&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;fi&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;  fi&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
 

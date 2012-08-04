@@ -57,11 +57,7 @@ handle_virtualenv<span class="o">(){</span>
       <span class="nb">echo</span> <span class="nv">$VIRTUALENV_PATH</span>
       <span class="nb">source</span> <span class="nv">$VIRTUALENV_PATH</span>/bin/activate
       <span class="nb">echo</span> <span class="s2">&quot;&gt; Virtualenv `basename $VIRTUALENV_PATH` activated&quot;</span>
-      <span class="c">#django bash completion</span>
-      <span class="k">if</span> <span class="o">[</span> -f ~/.python-envs/django_bash_completion <span class="o">]</span>; <span class="k">then</span>
-        . ~/.python-envs/django_bash_completion
-      <span class="k">fi</span>
-<span class="k">    fi</span>
+    <span class="k">fi</span>
 <span class="k">  fi</span>
 <span class="o">}</span>
 
