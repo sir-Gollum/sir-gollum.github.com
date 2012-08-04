@@ -1,0 +1,95 @@
+<!doctype html><!--[if lt IE 7]><html class="no-js ie6 oldie" lang="en"><![endif]--><!--[if IE 7]><html class="no-js ie7 oldie" lang="en"><![endif]--><!--[if IE 8]><html class="no-js ie8 oldie" lang="en"><![endif]--><html><head><meta charset="utf-8"><meta name="description" content="Персональный сайт и блог Андрея Мукомолова" /><meta name="keywords" content="Андрей Мукомолов, Andrey Mukomolov, sir_Gollum, разработка, технологии, web, python, django" /><meta name="author" content="Андрей Мукомолов"><!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]--><title>Андрей Мукомолов // Про virtualenv</title><link href="/blog/atom.xml" rel="alternate" title="Андрей Мукомолов" type="application/atom+xml"/><link rel="stylesheet" href="/media/css/imports.css"><script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script></head><body><div class="container"><nav class="pretty navbar"><h1 class="logo"><a href="/index.html">Андрей Мукомолов</a></h1><ul><li class="active" ><a href="/blog/blog.html">
+					Блог
+				</a></li></ul></nav>
+            
+<section class="row"">
+		<div class="one columns"></div>
+  		<div class="ten columns">
+
+
+    
+    <h1>Про virtualenv</h1>    
+    <span class="postdate">04.08.2012, первая половина дня</span>
+    
+    <div class="tags">Категории: <a href="/blog/tags/tools.html">tools</a> и <a href="/blog/tags/python.html">python</a>.</div>
+    
+
+
+
+	
+		<!-- Hyde::Article::Begin -->
+
+<p>Есть куча способов установки питоновских пакетов. Какие-то более удобны, какие-то менее, в зависимости от ситуации. Опишу способ, который мне оказался удобен в большинстве&nbsp;случаев.</p>
+<p>Для его использования не нужно ничего, кроме собственно <a href="">virtualenv</a> и <a href="">pip</a>. Для каждого проекта я использую отдельную среду со своим набором пакетов - мне так удобнее управлять&nbsp;зависимостями.</p>
+<p>Для создания окружений я использую небольшую функцию в <code>~/.profile</code>:</p>
+<div class="codehilite"><pre>mkenv<span class="o">()</span> <span class="o">{</span>
+  <span class="nv">VENV_PATH</span><span class="o">=</span><span class="s2">&quot;$<span class="caps">HOME</span>/.python-envs`pwd`&quot;</span>
+  virtualenv --no-site-packages -p <span class="sb">`</span>which python<span class="sb">`</span> <span class="nv">$VENV_PATH</span>
+  <span class="nb">echo</span> <span class="s2">&quot;VIRTUALENV_PATH=$VENV_PATH&quot;</span> &gt; .venv
+  <span class="nb">source</span> <span class="nv">$VENV_PATH</span>/bin/activate
+<span class="o">}</span>
+</pre></div>
+
+
+<p>Окружения создаются в скрытой папке <code>~/.python-envs/&lt;путь_к_папке_с_проектом&gt;</code>, а путь к окружению пишется в папку проекта в скрытый файл <code>.venv</code>. В принципе, путь можно и вычислять, но я уже пару раз менял место для новых окружений, а так нет необходимости переносить&nbsp;старые.</p>
+<p>Далее, хотелось бы как-то автоматически активировать окружение, когда мы начинаем работать с проектом. Для этой цели я использую еще один скрипт, лежащий в <code>~/.profile</code> и проверяющий как раз файлы <code>.venv</code>. Скрипт срабатывает, когда изменилась текущая&nbsp;директория.</p>
+<div class="codehilite"><pre><span class="nv"><span class="caps">PREVPWD</span></span><span class="o">=</span><span class="sb">`</span><span class="nb">pwd</span><span class="sb">`</span>
+<span class="nv">PREVENV_PATH</span><span class="o">=</span>
+<span class="nv">PREV_PS1</span><span class="o">=</span>
+<span class="nv">PREV_PATH</span><span class="o">=</span>
+handle_virtualenv<span class="o">(){</span>
+  <span class="k">if</span> <span class="o">[</span> <span class="s2">&quot;$<span class="caps">PWD</span>&quot;</span> !<span class="o">=</span> <span class="s2">&quot;$<span class="caps">PREVPWD</span>&quot;</span> <span class="o">]</span>; <span class="k">then</span>
+<span class="k">    </span><span class="nv"><span class="caps">PREVPWD</span></span><span class="o">=</span><span class="s2">&quot;$<span class="caps">PWD</span>&quot;</span>;
+    <span class="k">if</span> <span class="o">[</span> -n <span class="s2">&quot;$PREVENV_PATH&quot;</span> <span class="o">]</span>; <span class="k">then</span>
+<span class="k">      if</span> <span class="o">[</span> <span class="s2">&quot;`echo &quot;</span><span class="nv">$<span class="caps">PWD</span></span><span class="s2">&quot; | grep -c $PREVENV_PATH`&quot;</span> <span class="o">=</span> <span class="s2">&quot;0&quot;</span>  <span class="o">]</span>; <span class="k">then</span>
+<span class="k">         </span><span class="nb">source</span> <span class="nv">$PREVENV_PATH</span>/.venv
+         <span class="nb">echo</span> <span class="s2">&quot;&gt; Virtualenv `basename $VIRTUALENV_PATH` deactivated&quot;</span>
+         <span class="nv"><span class="caps">PS1</span></span><span class="o">=</span><span class="nv">$PREV_PS1</span>
+         <span class="nv"><span class="caps">PATH</span></span><span class="o">=</span><span class="nv">$PREV_PATH</span>
+         <span class="nv">PREVENV_PATH</span><span class="o">=</span>
+      <span class="k">fi</span>
+<span class="k">    fi</span>
+<span class="k">    if</span> <span class="o">[</span> -e <span class="s2">&quot;$<span class="caps">PWD</span>/.venv&quot;</span> <span class="o">]</span> <span class="o">&amp;&amp;</span> <span class="o">[</span> <span class="s2">&quot;$<span class="caps">PWD</span>&quot;</span> !<span class="o">=</span> <span class="s2">&quot;$PREVENV_PATH&quot;</span> <span class="o">]</span>; <span class="k">then</span>
+<span class="k">      </span><span class="nv">PREV_PS1</span><span class="o">=</span><span class="s2">&quot;$<span class="caps">PS1</span>&quot;</span>
+      <span class="nv">PREV_PATH</span><span class="o">=</span><span class="s2">&quot;$<span class="caps">PATH</span>&quot;</span>
+      <span class="nv">PREVENV_PATH</span><span class="o">=</span><span class="s2">&quot;$<span class="caps">PWD</span>&quot;</span>
+      <span class="nb">source</span> <span class="nv">$<span class="caps">PWD</span></span>/.venv
+      <span class="nb">echo</span> <span class="nv">$VIRTUALENV_PATH</span>
+      <span class="nb">source</span> <span class="nv">$VIRTUALENV_PATH</span>/bin/activate
+      <span class="nb">echo</span> <span class="s2">&quot;&gt; Virtualenv `basename $VIRTUALENV_PATH` activated&quot;</span>
+      <span class="c">#django bash completion</span>
+      <span class="k">if</span> <span class="o">[</span> -f ~/.python-envs/django_bash_completion <span class="o">]</span>; <span class="k">then</span>
+        . ~/.python-envs/django_bash_completion
+      <span class="k">fi</span>
+<span class="k">    fi</span>
+<span class="k">  fi</span>
+<span class="o">}</span>
+
+<span class="nb">export </span><span class="nv">PROMPT_COMMAND</span><span class="o">=</span>handle_virtualenv
+</pre></div>
+
+
+<p>Вот собственно и всё. Какие это даёт&nbsp;удобства:</p>
+<ul>
+<li>не надо ставить еще что-то, например <a href="http://virtualenvwrapper.readthedocs.org/en/latest/index.html">virtualenvwrapper</a></li>
+<li>легко отслеживать зависимости с помощью pip, легко увидеть набор пакетов, нужных конкретному&nbsp;проекту</li>
+<li>окружения включаются и выключаются автоматически тогда, когда они&nbsp;нужны</li>
+</ul>
+<p>Чтобы не тянуть пакеты из сети каждый раз, когда они нужны, а также на случай падения <a href="http://pypi.python.org/pypi">pypi</a> или атомной войны, можно еще добавить сюда использование <a href="http://stackoverflow.com/questions/4806448/how-do-i-install-from-a-local-cache-with-pip">PIP_DOWNLOAD_CACHE</a> и <a href="http://pypi.python.org/pypi/collective.eggproxy/0.5.1">collective.eggproxy</a>.</p>
+<!-- Hyde::Article::End -->
+	
+        <div id="disqus_thread"></div><script type="text/javascript">
+            var disqus_shortname = 'mukomolov';
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+		</div>
+		<div class="one columns"></div>
+</section>		
+
+            </div><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter14819374 = new Ya.Metrika({id:14819374, enableAll: true, webvisor:true}); } catch(e) {} }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script></body></html>
