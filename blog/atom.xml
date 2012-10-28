@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Андрей Мукомолов </title><link href="http://mukomolov.com/blog/atom.xml" rel="self"/><link href="http://mukomolov.com"/><updated>2012-08-04T15:49:38Z</updated><id>http://mukomolov.com</id><entry><title>Про virtualenv</title><author><name>Андрей Мукомолов</name></author><link href="http://mukomolov.com/blog/2012/virtualenv.html"/><updated>2012-08-04T12:16:54Z</updated><published>2012-08-04T12:16:54Z</published><id>http://mukomolov.com/blog/2012/virtualenv.html</id><content type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Андрей Мукомолов </title><link href="http://mukomolov.com/blog/atom.xml" rel="self"/><link href="http://mukomolov.com"/><updated>2012-10-28T15:44:25Z</updated><id>http://mukomolov.com</id><entry><title>Будущее зависит от меня</title><author><name>Андрей Мукомолов</name></author><link href="http://mukomolov.com/blog/2012/future-depends-on-me.html"/><updated>2012-10-28T13:47:55Z</updated><published>2012-10-28T13:47:55Z</published><id>http://mukomolov.com/blog/2012/future-depends-on-me.html</id><content type="html">
+       
+
+&lt;p&gt;Четвертого октября был последний день моей работы в &lt;a href=&quot;http://www.oilnet.ru&quot;&gt;ОАО &amp;#8220;Связьтранснефть&amp;#8221;&lt;/a&gt;. Я проработал там почти четыре года, за&amp;nbsp;которые:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;так или иначе позанимался разработкой почти всех модулей нашей системы управления предприятием (&amp;#8220;Документооборот&amp;#8221;, &amp;#8220;Бюджетирование&amp;#8221;, &amp;#8220;Договорная работа&amp;#8221; и&amp;nbsp;т.д.)&lt;/li&gt;
+&lt;li&gt;разрабатывал и дорабатывал базовые классы и компоненты&amp;nbsp;системы&lt;/li&gt;
+&lt;li&gt;разрабатывал инструменты, автоматизирующие отладку, тестирование и прочие&amp;nbsp;операции&lt;/li&gt;
+&lt;li&gt;администрировал часть инфраструктуры, используемой при&amp;nbsp;разработке&lt;/li&gt;
+&lt;li&gt;переводил проект на новые компоненты, версии &lt;span class=&quot;caps&quot;&gt;IDE&lt;/span&gt;, систему контроля&amp;nbsp;версий&lt;/li&gt;
+&lt;li&gt;выступил на конкурсе молодых специалистов, где защитил нашу общую работу по автоматизации бюджетирования и занял первое&amp;nbsp;место.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Настало время двигаться дальше. С пятого октября я работаю в столичном филиале &lt;a href=&quot;http://www.megafon.ru&quot;&gt;&amp;#8220;Мегафона&amp;#8221;&lt;/a&gt;, где занимаюсь разработкой портала на &lt;a href=&quot;http://www.djangoproject.com&quot;&gt;Django&lt;/a&gt;/&lt;a href=&quot;http://oracle.com&quot;&gt;Oracle&lt;/a&gt;, систем сбора статистики и еще рядом&amp;nbsp;задач.&lt;/p&gt;
+&lt;p&gt;Основной мотивацией для смены работы была возможность развиваться в любимых и современных технологиях в качестве основного вида деятельности, при прочих сравнимых условиях. Плюс, насколько я могу судить, на новом месте у меня будет больше свободы действий и выбора технических решений &amp;#8212; это тоже весьма&amp;nbsp;значимо.&lt;/p&gt;
+&lt;p&gt;Расстались с коллегами мы мирно и со взаимным уважением, и я думаю, что еще неоднократно увидимся, когда они в очередной раз приедут в командировку в Москву&amp;nbsp;;)&lt;/p&gt;
+
+   </content></entry><entry><title>Про virtualenv</title><author><name>Андрей Мукомолов</name></author><link href="http://mukomolov.com/blog/2012/virtualenv.html"/><updated>2012-08-04T12:16:54Z</updated><published>2012-08-04T12:16:54Z</published><id>http://mukomolov.com/blog/2012/virtualenv.html</id><content type="html">
        
 
 &lt;p&gt;Есть куча способов установки питоновских пакетов. Какие-то более удобны, какие-то менее, в зависимости от ситуации. Опишу способ, который мне оказался удобен в большинстве&amp;nbsp;случаев.&lt;/p&gt;
