@@ -1,0 +1,94 @@
+// Syntax theme: native (dark)
+// Generated from: hugo gen chromastyles --style=native
+
+$code-background-color-dark: #202020;
+$code-info-color-dark: #999;
+
+$code-highlight-color-map-dark: (
+    /* Parentheses */ "p": #d0d0d0,
+    /* Keyword */ "k": #6ab825,
+    /* KeywordConstant */ "kc": #6ab825,
+    /* KeywordDeclaration */ "kd": #6ab825,
+    /* KeywordNamespace */ "kn": #6ab825,
+    /* KeywordPseudo */ "kp": #6ab825,
+    /* KeywordReserved */ "kr": #6ab825,
+    /* KeywordType */ "kt": #6ab825,
+    /* Name */ "n": #d0d0d0,
+    /* NameAttribute */ "na": #bbb,
+    /* NameBuiltin */ "nb": #24909d,
+    /* NameBuiltinPseudo */ "bp": #24909d,
+    /* NameClass */ "nc": #447fcf,
+    /* NameConstant */ "no": #40ffff,
+    /* NameDecorator */ "nd": #ffa500,
+    /* NameEntity */ "ni": #d0d0d0,
+    /* NameException */ "ne": #bbb,
+    /* NameFunction */ "nf": #447fcf,
+    /* NameFunctionMagic */ "fm": #447fcf,
+    /* NameLabel */ "nl": #d0d0d0,
+    /* NameNamespace */ "nn": #447fcf,
+    /* NameOther */ "nx": #d0d0d0,
+    /* NameProperty */ "py": #d0d0d0,
+    /* NameTag */ "nt": #6ab825,
+    /* NameVariable */ "nv": #40ffff,
+    /* NameVariableClass */ "vc": #40ffff,
+    /* NameVariableGlobal */ "vg": #40ffff,
+    /* NameVariableInstance */ "vi": #40ffff,
+    /* NameVariableMagic */ "vm": #40ffff,
+    /* Literal */ "l": #d0d0d0,
+    /* LiteralDate */ "ld": #d0d0d0,
+    /* LiteralString */ "s": #ed9d13,
+    /* LiteralStringAffix */ "sa": #ed9d13,
+    /* LiteralStringBacktick */ "sb": #ed9d13,
+    /* LiteralStringChar */ "sc": #ed9d13,
+    /* LiteralStringDelimiter */ "dl": #ed9d13,
+    /* LiteralStringDoc */ "sd": #ed9d13,
+    /* LiteralStringDouble */ "s2": #ed9d13,
+    /* LiteralStringEscape */ "se": #ed9d13,
+    /* LiteralStringHeredoc */ "sh": #ed9d13,
+    /* LiteralStringInterpol */ "si": #ed9d13,
+    /* LiteralStringOther */ "sx": #ffa500,
+    /* LiteralStringRegex */ "sr": #ed9d13,
+    /* LiteralStringSingle */ "s1": #ed9d13,
+    /* LiteralStringSymbol */ "ss": #ed9d13,
+    /* LiteralNumber */ "m": #3677a9,
+    /* LiteralNumberBin */ "mb": #3677a9,
+    /* LiteralNumberFloat */ "mf": #3677a9,
+    /* LiteralNumberHex */ "mh": #3677a9,
+    /* LiteralNumberInteger */ "mi": #3677a9,
+    /* LiteralNumberIntegerLong */ "il": #3677a9,
+    /* LiteralNumberOct */ "mo": #3677a9,
+    /* Operator */ "o": #d0d0d0,
+    /* OperatorWord */ "ow": #6ab825,
+    /* Comment */ "c": #999,
+    /* CommentHashbang */ "ch": #999,
+    /* CommentMultiline */ "cm": #999,
+    /* CommentSingle */ "c1": #999,
+    /* CommentSpecial */ "cs": #e50808,
+    /* CommentPreproc */ "cp": #cd2828,
+    /* CommentPreprocFile */ "cpf": #cd2828,
+    /* GenericDeleted */ "gd": #d22323,
+    /* GenericEmph */ "ge": #d0d0d0,
+    /* GenericError */ "gr": #d22323,
+    /* GenericHeading */ "gh": #fff,
+    /* GenericInserted */ "gi": #589819,
+    /* GenericOutput */ "go": #ccc,
+    /* GenericPrompt */ "gp": #aaa,
+    /* GenericStrong */ "gs": #d0d0d0,
+    /* GenericSubheading */ "gu": #fff,
+    /* GenericTraceback */ "gt": #d22323,
+    /* TextWhitespace */ "w": #666
+);
+
+$syntax-border-color: #363636;
+$syntax-line-number-color: #686868;
+
+@mixin syntax-extra-styles {
+    .k, .kc, .kd, .kn, .kr, .kt { font-weight: bold; }
+    .ow { font-weight: bold; }
+    .nt { font-weight: bold; }
+    .nc, .nn { text-decoration: underline; }
+    .gh { font-weight: bold; }
+    .gu { text-decoration: underline; }
+    .cs { background-color: #520000; font-weight: bold; }
+    .cp, .cpf { font-weight: bold; }
+}

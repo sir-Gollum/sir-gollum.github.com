@@ -1,0 +1,106 @@
+// Syntax theme: colorful (light)
+// Generated from: hugo gen chromastyles --style=colorful
+
+$code-background-color: #ffffff;
+$code-info-color: #888888;
+
+$code-highlight-color-map: (
+    /* Parentheses */ "p": #000000,
+    /* Keyword */ "k": #008800,
+    /* KeywordConstant */ "kc": #008800,
+    /* KeywordDeclaration */ "kd": #008800,
+    /* KeywordNamespace */ "kn": #008800,
+    /* KeywordPseudo */ "kp": #003388,
+    /* KeywordReserved */ "kr": #008800,
+    /* KeywordType */ "kt": #333399,
+    /* Name */ "n": #000000,
+    /* NameAttribute */ "na": #0000cc,
+    /* NameBuiltin */ "nb": #007020,
+    /* NameBuiltinPseudo */ "bp": #007020,
+    /* NameClass */ "nc": #bb0066,
+    /* NameConstant */ "no": #003366,
+    /* NameDecorator */ "nd": #555555,
+    /* NameEntity */ "ni": #880000,
+    /* NameException */ "ne": #ff0000,
+    /* NameFunction */ "nf": #0066bb,
+    /* NameFunctionMagic */ "fm": #0066bb,
+    /* NameLabel */ "nl": #997700,
+    /* NameNamespace */ "nn": #0e84b5,
+    /* NameOther */ "nx": #000000,
+    /* NameProperty */ "py": #000000,
+    /* NameTag */ "nt": #007700,
+    /* NameVariable */ "nv": #996633,
+    /* NameVariableClass */ "vc": #336699,
+    /* NameVariableGlobal */ "vg": #dd7700,
+    /* NameVariableInstance */ "vi": #3333bb,
+    /* NameVariableMagic */ "vm": #996633,
+    /* Literal */ "l": #000000,
+    /* LiteralDate */ "ld": #000000,
+    /* LiteralString */ "s": #000000,
+    /* LiteralStringAffix */ "sa": #000000,
+    /* LiteralStringBacktick */ "sb": #000000,
+    /* LiteralStringChar */ "sc": #0044dd,
+    /* LiteralStringDelimiter */ "dl": #000000,
+    /* LiteralStringDoc */ "sd": #dd4422,
+    /* LiteralStringDouble */ "s2": #000000,
+    /* LiteralStringEscape */ "se": #666666,
+    /* LiteralStringHeredoc */ "sh": #000000,
+    /* LiteralStringInterpol */ "si": #000000,
+    /* LiteralStringOther */ "sx": #dd2200,
+    /* LiteralStringRegex */ "sr": #000000,
+    /* LiteralStringSingle */ "s1": #000000,
+    /* LiteralStringSymbol */ "ss": #aa6600,
+    /* LiteralNumber */ "m": #6600ee,
+    /* LiteralNumberBin */ "mb": #6600ee,
+    /* LiteralNumberFloat */ "mf": #6600ee,
+    /* LiteralNumberHex */ "mh": #005588,
+    /* LiteralNumberInteger */ "mi": #0000dd,
+    /* LiteralNumberIntegerLong */ "il": #6600ee,
+    /* LiteralNumberOct */ "mo": #4400ee,
+    /* Operator */ "o": #333333,
+    /* OperatorWord */ "ow": #000000,
+    /* Comment */ "c": #888888,
+    /* CommentHashbang */ "ch": #888888,
+    /* CommentMultiline */ "cm": #888888,
+    /* CommentSingle */ "c1": #888888,
+    /* CommentSpecial */ "cs": #cc0000,
+    /* CommentPreproc */ "cp": #557799,
+    /* CommentPreprocFile */ "cpf": #557799,
+    /* GenericDeleted */ "gd": #aa0000,
+    /* GenericEmph */ "ge": #000000,
+    /* GenericError */ "gr": #ff0000,
+    /* GenericHeading */ "gh": #000080,
+    /* GenericInserted */ "gi": #00aa00,
+    /* GenericOutput */ "go": #888888,
+    /* GenericPrompt */ "gp": #c65d09,
+    /* GenericStrong */ "gs": #000000,
+    /* GenericSubheading */ "gu": #800080,
+    /* GenericTraceback */ "gt": #0044dd,
+    /* TextWhitespace */ "w": #bbbbbb
+);
+
+$syntax-border-color-light: #e0e0e0;
+$syntax-line-number-color-light: #7f7f7f;
+
+@mixin syntax-extra-styles-light {
+    .k, .kc, .kd, .kn, .kr { font-weight: bold; }
+    .kp { font-weight: bold; }
+    .kt { font-weight: bold; }
+    .nc, .no, .nd, .ni, .ne, .nl, .nn { font-weight: bold; }
+    .nf, .fm { font-weight: bold; }
+    .vg { font-weight: bold; }
+    .m, .mb, .mf, .mh, .mi, .il, .mo { font-weight: bold; }
+    .ow { font-weight: bold; }
+    .cs { font-weight: bold; }
+    .gh, .gu { font-weight: bold; }
+    .gp { font-weight: bold; }
+    .se { font-weight: bold; }
+    .s, .sa, .sb, .dl, .sh, .s1, .s2 { background-color: #fff0f0; }
+    .sc { background-color: #fff0f0; }
+    .sd { background-color: #fff0f0; }
+    .se { background-color: #fff0f0; }
+    .si { background-color: #eeeeee; }
+    .sx { background-color: #fff0f0; }
+    .sr { background-color: #fff0ff; }
+    .ss { background-color: #fff0f0; }
+}
