@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Django on Андрей Мукомолов</title>
+    <link>http://mukomolov.com/ru/tags/django/</link>
+    <description>Recent content in Django on Андрей Мукомолов</description>
+    <generator>Hugo</generator>
+    <language>ru</language>
+    <managingEditor>mukomolov@gmail.com (Андрей Мукомолов)</managingEditor>
+    <webMaster>mukomolov@gmail.com (Андрей Мукомолов)</webMaster>
+    <lastBuildDate>Tue, 10 Jul 2012 20:20:05 +0200</lastBuildDate>
+    <atom:link href="http://mukomolov.com/ru/tags/django/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Про Moscow Django Meetup</title>
+      <link>http://mukomolov.com/ru/blog/2022/moscow_django_meetup/</link>
+      <pubDate>Tue, 10 Jul 2012 20:20:05 +0200</pubDate><author>mukomolov@gmail.com (Андрей Мукомолов)</author>
+      <guid>http://mukomolov.com/ru/blog/2022/moscow_django_meetup/</guid>
+      <description>&lt;p&gt;До недавнего времени я очень завидовал украинцам, потому что у них было довольно развитое сообщество питонистов. Проводилась куча конференций, из того что помню с ходу - &lt;a href=&#34;http://kyivpy.org.ua/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Kiyv.py&lt;/a&gt;, &lt;a href=&#34;http://kharkivpy.org.ua/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;KharkivPy&lt;/a&gt;, &lt;a href=&#34;http://ua.pycon.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;PyConUA&lt;/a&gt;, наверняка жизнь питоновской тусовки бурлила и на менее официальных встречах. В Москве же ничего подобного и близко не было, хотя довольно много питонистов посещало &lt;a href=&#34;http://events.yandex.ru/events/yasubbotnik/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Яндекс.Субботники&lt;/a&gt;, &lt;a href=&#34;http://events.yandex.ru/events/yac/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;YaC&lt;/a&gt;, &lt;a href=&#34;http://www.devconf.ru/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;DevConf&lt;/a&gt; и прочие конференции. Как оказалось, завидовал не я один.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

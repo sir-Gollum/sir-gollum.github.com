@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Andrey Mukomolov</title>
+    <link>http://mukomolov.com/tags/python/</link>
+    <description>Recent content in Python on Andrey Mukomolov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>mukomolov@gmail.com (Andrey Mukomolov)</managingEditor>
+    <webMaster>mukomolov@gmail.com (Andrey Mukomolov)</webMaster>
+    <lastBuildDate>Tue, 10 Jul 2012 20:20:05 +0200</lastBuildDate>
+    <atom:link href="http://mukomolov.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Moscow Django Meetup</title>
+      <link>http://mukomolov.com/blog/2022/moscow_django_meetup/</link>
+      <pubDate>Tue, 10 Jul 2012 20:20:05 +0200</pubDate><author>mukomolov@gmail.com (Andrey Mukomolov)</author>
+      <guid>http://mukomolov.com/blog/2022/moscow_django_meetup/</guid>
+      <description>&lt;p&gt;Until recently, I really envied Ukrainians because they have a pretty solid Python community. There are tons of conferences — off the top of my head, I remember &lt;a href=&#34;http://kyivpy.org.ua/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Kiyv.py&lt;/a&gt;, &lt;a href=&#34;http://kharkivpy.org.ua/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;KharkivPy&lt;/a&gt;, &lt;a href=&#34;http://ua.pycon.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;PyConUA&lt;/a&gt;, and I&amp;rsquo;m sure the Python scene was buzzing at less formal meetups too. In Moscow, nothing like that existed, even though quite a few Python developers attended &lt;a href=&#34;http://events.yandex.ru/events/yasubbotnik/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Yandex.Saturday&lt;/a&gt;, &lt;a href=&#34;http://events.yandex.ru/events/yac/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;YaC&lt;/a&gt;, &lt;a href=&#34;http://www.devconf.ru/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;DevConf&lt;/a&gt;, and other events. As it turns out, I wasn’t the only one who felt that way.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

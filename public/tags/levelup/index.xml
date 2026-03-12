@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Levelup on Andrey Mukomolov</title>
+    <link>http://mukomolov.com/tags/levelup/</link>
+    <description>Recent content in Levelup on Andrey Mukomolov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>mukomolov@gmail.com (Andrey Mukomolov)</managingEditor>
+    <webMaster>mukomolov@gmail.com (Andrey Mukomolov)</webMaster>
+    <lastBuildDate>Mon, 28 May 2012 21:47:35 +0100</lastBuildDate>
+    <atom:link href="http://mukomolov.com/tags/levelup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coursera and Stanford Courses</title>
+      <link>http://mukomolov.com/blog/2012/05/coursera/</link>
+      <pubDate>Mon, 28 May 2012 21:47:35 +0100</pubDate><author>mukomolov@gmail.com (Andrey Mukomolov)</author>
+      <guid>http://mukomolov.com/blog/2012/05/coursera/</guid>
+      <description>&lt;p&gt;One of the main things I&amp;rsquo;ll remember this spring for is taking a whole bunch of online courses from &lt;a href=&#34;http://www.stanford.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Stanford University&lt;/a&gt;, mostly available on &lt;a href=&#34;http://www.coursera.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Coursera&lt;/a&gt;. By the way, Coursera itself is apparently built entirely on open-source tech and recently &lt;a href=&#34;http://venturebeat.com/2012/04/18/coursera-raises-16m/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;got $16 million in funding&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Back in the fall, I signed up for a ton of courses, most of which were supposed to start in February:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://coursera.org/course/ml&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Machine Learning&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://coursera.org/course/hci&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Human-Computer Interaction&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://coursera.org/course/nlp&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Natural Language Processing&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://wwwcoursera.org/course/algo&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Design and Analysis of Algorithms I&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://coursera.org/course/compilers&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Compilers&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://coursera.org/course/crypto&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Cryptography&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://coursera.org/course/introfinance&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Introduction to Finance&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://venture-lab.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Venture Lab&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The start of the courses got delayed, but by mid-March, two of them had launched: Natural Language Processing and Design and Analysis of Algorithms I.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

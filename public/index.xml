@@ -1,0 +1,38 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Andrey Mukomolov</title>
+        <link>http://mukomolov.com/</link>
+        <description>Andrey Mukomolov&#39;s personal website and blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>mukomolov@gmail.com (Andrey Mukomolov)</managingEditor>
+            <webMaster>mukomolov@gmail.com (Andrey Mukomolov)</webMaster><lastBuildDate>Mon, 15 Jan 2024 10:00:00 &#43;0100</lastBuildDate>
+            <atom:link href="http://mukomolov.com/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Moscow Django Meetup</title>
+    <link>http://mukomolov.com/blog/2022/moscow_django_meetup/</link>
+    <pubDate>Tue, 10 Jul 2012 20:20:05 &#43;0200</pubDate>
+    <author>Andrey Mukomolov</author>
+    <guid>http://mukomolov.com/blog/2022/moscow_django_meetup/</guid>
+    <description><![CDATA[<p>Until recently, I really envied Ukrainians because they have a pretty solid Python community. There are tons of conferences — off the top of my head, I remember <a href="http://kyivpy.org.ua/" target="_blank" rel="noopener noreffer ">Kiyv.py</a>, <a href="http://kharkivpy.org.ua/" target="_blank" rel="noopener noreffer ">KharkivPy</a>, <a href="http://ua.pycon.org/" target="_blank" rel="noopener noreffer ">PyConUA</a>, and I&rsquo;m sure the Python scene was buzzing at less formal meetups too. In Moscow, nothing like that existed, even though quite a few Python developers attended <a href="http://events.yandex.ru/events/yasubbotnik/" target="_blank" rel="noopener noreffer ">Yandex.Saturday</a>, <a href="http://events.yandex.ru/events/yac/" target="_blank" rel="noopener noreffer ">YaC</a>, <a href="http://www.devconf.ru/" target="_blank" rel="noopener noreffer ">DevConf</a>, and other events. As it turns out, I wasn’t the only one who felt that way.</p>]]></description>
+</item>
+<item>
+    <title>Coursera and Stanford Courses</title>
+    <link>http://mukomolov.com/blog/2012/05/coursera/</link>
+    <pubDate>Mon, 28 May 2012 21:47:35 &#43;0100</pubDate>
+    <author>Andrey Mukomolov</author>
+    <guid>http://mukomolov.com/blog/2012/05/coursera/</guid>
+    <description><![CDATA[<p>One of the main things I&rsquo;ll remember this spring for is taking a whole bunch of online courses from <a href="http://www.stanford.edu/" target="_blank" rel="noopener noreffer ">Stanford University</a>, mostly available on <a href="http://www.coursera.org/" target="_blank" rel="noopener noreffer ">Coursera</a>. By the way, Coursera itself is apparently built entirely on open-source tech and recently <a href="http://venturebeat.com/2012/04/18/coursera-raises-16m/" target="_blank" rel="noopener noreffer ">got $16 million in funding</a>.</p>
+<p>Back in the fall, I signed up for a ton of courses, most of which were supposed to start in February:</p>
+<ul>
+<li><a href="http://coursera.org/course/ml" target="_blank" rel="noopener noreffer ">Machine Learning</a></li>
+<li><a href="http://coursera.org/course/hci" target="_blank" rel="noopener noreffer ">Human-Computer Interaction</a></li>
+<li><a href="http://coursera.org/course/nlp" target="_blank" rel="noopener noreffer ">Natural Language Processing</a></li>
+<li><a href="http://wwwcoursera.org/course/algo" target="_blank" rel="noopener noreffer ">Design and Analysis of Algorithms I</a></li>
+<li><a href="http://coursera.org/course/compilers" target="_blank" rel="noopener noreffer ">Compilers</a></li>
+<li><a href="http://coursera.org/course/crypto" target="_blank" rel="noopener noreffer ">Cryptography</a></li>
+<li><a href="http://coursera.org/course/introfinance" target="_blank" rel="noopener noreffer ">Introduction to Finance</a></li>
+<li><a href="http://venture-lab.org/" target="_blank" rel="noopener noreffer ">Venture Lab</a></li>
+</ul>
+<p>The start of the courses got delayed, but by mid-March, two of them had launched: Natural Language Processing and Design and Analysis of Algorithms I.</p>]]></description>
+</item>
+</channel>
+</rss>

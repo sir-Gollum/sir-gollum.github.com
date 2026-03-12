@@ -1,0 +1,281 @@
+// ==============================
+// Custom style overrides - Warm Chocolate Theme
+// ==============================
+
+.post-footer {
+    margin-top: 1rem !important;
+}
+
+// Layout home-avatar and home-subtitle on the same row
+.home .home-profile {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: left;
+
+    .home-avatar {
+        width: 46%;
+        padding-top: 1rem;
+
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+    }
+
+    .links {
+        padding: 0;
+    }
+
+    .home-subtitle {
+        width: 46%;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+[theme="dark"] .home .home-profile .home-avatar img {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+// Warm navbar styling
+#header-desktop {
+    background-color: #dc7e3a;
+    border-bottom: 1px solid #b8371e;
+    box-shadow: 0 1px 3px rgba(220, 126, 58, 0.2);
+}
+
+[theme="dark"] #header-desktop {
+    background-color: #2a2a2a;
+    border-bottom: 1px solid #000;
+}
+
+// Header title and menu items styling
+.header-title a {
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+.menu-item {
+    color: #ffffff !important;
+}
+
+.menu-item:hover {
+    color: #f0f0f0 !important;
+}
+
+[theme="dark"] .header-title a {
+    color: #d2691e !important;
+}
+
+[theme="dark"] .menu-item {
+    color: #d0d0d0 !important;
+}
+
+[theme="dark"] .menu-item:hover {
+    color: #e85a3d !important;
+}
+
+// Link styling for home subtitle
+.home-subtitle a {
+    color: #d04526;
+    text-decoration: underline;
+    text-decoration-color: rgba(208, 69, 38, 0.3);
+    text-underline-offset: 3px;
+    transition: all 0.2s ease;
+}
+
+.home-subtitle a:hover {
+    color: #b8371e;
+    text-decoration-color: #b8371e;
+}
+
+[theme="dark"] .home-subtitle a {
+    color: #e85a3d;
+    text-decoration-color: rgba(232, 90, 61, 0.3);
+}
+
+[theme="dark"] .home-subtitle a:hover {
+    color: #ed7055;
+    text-decoration-color: #ed7055;
+}
+
+// Title styling
+.single-title,
+.home-profile h1,
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+    color: #d2691e;
+}
+
+[theme="dark"] .single-title,
+[theme="dark"] .home-profile h1,
+[theme="dark"] .content h1,
+[theme="dark"] .content h2,
+[theme="dark"] .content h3,
+[theme="dark"] .content h4,
+[theme="dark"] .content h5,
+[theme="dark"] .content h6 {
+    color: #d2691e;
+}
+
+// Responsive design - stack vertically on mobile
+@media (max-width: 768px) {
+    .home .home-profile {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        .home-avatar {
+            width: 200px;
+            margin-bottom: 1.5rem;
+
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+
+        .home-subtitle {
+            width: 100%;
+            text-align: left;
+        }
+    }
+}
+
+.single .content p {
+    margin: 1.2rem 0;
+}
+
+// Code block styling - light theme
+.single .content pre {
+    border-radius: 6px;
+    border: 1px solid $syntax-border-color-light;
+    background-color: $code-background-color;
+}
+
+.highlight > .chroma {
+    @if mixin-exists(syntax-extra-styles-light) {
+        @include syntax-extra-styles-light;
+    }
+}
+
+.highlight > .chroma .lnt,
+.highlight > .chroma .ln {
+    color: $syntax-line-number-color-light;
+}
+
+// Code block styling - dark theme
+[theme="dark"] .single .content pre {
+    border-color: $syntax-border-color;
+    background-color: $code-background-color-dark;
+}
+
+[theme="dark"] .highlight > .chroma {
+    @if mixin-exists(syntax-extra-styles) {
+        @include syntax-extra-styles;
+    }
+}
+
+[theme="dark"] .highlight > .chroma .lnt,
+[theme="dark"] .highlight > .chroma .ln {
+    color: $syntax-line-number-color;
+}
+
+// Simple blockquote styling
+.single .content blockquote {
+    border-left-width: 3px;
+    margin: 1.5rem 0;
+    padding: 0.75rem 1rem;
+}
+
+// Focus states for accessibility
+.menu-item:focus,
+a:focus {
+    outline: 2px solid #d04526;
+    outline-offset: 2px;
+    border-radius: 2px;
+}
+
+[theme="dark"] .menu-item:focus,
+[theme="dark"] a:focus {
+    outline-color: #e85a3d;
+}
+
+// Fix alignment of post titles and headers - override .special and .archive classes
+.single-title,
+.single-subtitle,
+.archive .single-title {
+    text-align: left !important;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+    text-align: left !important;
+}
+
+// Latest blog posts header styling
+.latest-posts-header {
+    color: #d2691e;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 2rem 0 0.3rem 0;
+}
+
+[theme="dark"] .latest-posts-header {
+    color: #d2691e;
+}
+
+footer {
+    height: 3.5rem;
+}
+
+// Footer legal links styling
+.footer-legal {
+    /* margin-top: 0.5rem; */
+    padding-top: 0.5rem;
+    /* padding-bottom: 1rem; */
+    font-size: 0.875rem;
+}
+
+// Faster code block animations
+.single .content .highlight > .chroma {
+    .table-wrapper {
+        -webkit-transition: max-height 0.3s cubic-bezier(0, 1, 0, 1) -0.1s;
+        transition: max-height 0.3s cubic-bezier(0, 1, 0, 1) -0.1s;
+    }
+
+    &.open .table-wrapper {
+        -webkit-transition: max-height 0.3s cubic-bezier(0.5, 0, 1, 0) 0s;
+        transition: max-height 0.3s cubic-bezier(0.5, 0, 1, 0) 0s;
+    }
+}
+
+// Faster copy flash animation - single blink using custom keyframes
+// (animate.min.css loads after this stylesheet, so we can't override @keyframes flash directly)
+@keyframes single-flash {
+    from, 50%, to {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0;
+    }
+}
+
+.highlight .animate__flash {
+    animation-name: single-flash !important;
+    animation-duration: 0.4s !important;
+}

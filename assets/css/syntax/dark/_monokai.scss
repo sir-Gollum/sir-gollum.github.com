@@ -1,0 +1,87 @@
+// Syntax theme: monokai (dark)
+// Generated from: hugo gen chromastyles --style=monokai
+
+$code-background-color-dark: #272822;
+$code-info-color-dark: #75715e;
+
+$code-highlight-color-map-dark: (
+    /* Parentheses */ "p": #f8f8f2,
+    /* Keyword */ "k": #66d9ef,
+    /* KeywordConstant */ "kc": #66d9ef,
+    /* KeywordDeclaration */ "kd": #66d9ef,
+    /* KeywordNamespace */ "kn": #f92672,
+    /* KeywordPseudo */ "kp": #66d9ef,
+    /* KeywordReserved */ "kr": #66d9ef,
+    /* KeywordType */ "kt": #66d9ef,
+    /* Name */ "n": #f8f8f2,
+    /* NameAttribute */ "na": #a6e22e,
+    /* NameBuiltin */ "nb": #f8f8f2,
+    /* NameBuiltinPseudo */ "bp": #f8f8f2,
+    /* NameClass */ "nc": #a6e22e,
+    /* NameConstant */ "no": #66d9ef,
+    /* NameDecorator */ "nd": #a6e22e,
+    /* NameEntity */ "ni": #f8f8f2,
+    /* NameException */ "ne": #a6e22e,
+    /* NameFunction */ "nf": #a6e22e,
+    /* NameFunctionMagic */ "fm": #a6e22e,
+    /* NameLabel */ "nl": #f8f8f2,
+    /* NameNamespace */ "nn": #f8f8f2,
+    /* NameOther */ "nx": #a6e22e,
+    /* NameProperty */ "py": #f8f8f2,
+    /* NameTag */ "nt": #f92672,
+    /* NameVariable */ "nv": #f8f8f2,
+    /* NameVariableClass */ "vc": #f8f8f2,
+    /* NameVariableGlobal */ "vg": #f8f8f2,
+    /* NameVariableInstance */ "vi": #f8f8f2,
+    /* NameVariableMagic */ "vm": #f8f8f2,
+    /* Literal */ "l": #ae81ff,
+    /* LiteralDate */ "ld": #e6db74,
+    /* LiteralString */ "s": #e6db74,
+    /* LiteralStringAffix */ "sa": #e6db74,
+    /* LiteralStringBacktick */ "sb": #e6db74,
+    /* LiteralStringChar */ "sc": #e6db74,
+    /* LiteralStringDelimiter */ "dl": #e6db74,
+    /* LiteralStringDoc */ "sd": #e6db74,
+    /* LiteralStringDouble */ "s2": #e6db74,
+    /* LiteralStringEscape */ "se": #ae81ff,
+    /* LiteralStringHeredoc */ "sh": #e6db74,
+    /* LiteralStringInterpol */ "si": #e6db74,
+    /* LiteralStringOther */ "sx": #e6db74,
+    /* LiteralStringRegex */ "sr": #e6db74,
+    /* LiteralStringSingle */ "s1": #e6db74,
+    /* LiteralStringSymbol */ "ss": #e6db74,
+    /* LiteralNumber */ "m": #ae81ff,
+    /* LiteralNumberBin */ "mb": #ae81ff,
+    /* LiteralNumberFloat */ "mf": #ae81ff,
+    /* LiteralNumberHex */ "mh": #ae81ff,
+    /* LiteralNumberInteger */ "mi": #ae81ff,
+    /* LiteralNumberIntegerLong */ "il": #ae81ff,
+    /* LiteralNumberOct */ "mo": #ae81ff,
+    /* Operator */ "o": #f92672,
+    /* OperatorWord */ "ow": #f92672,
+    /* Comment */ "c": #75715e,
+    /* CommentHashbang */ "ch": #75715e,
+    /* CommentMultiline */ "cm": #75715e,
+    /* CommentSingle */ "c1": #75715e,
+    /* CommentSpecial */ "cs": #75715e,
+    /* CommentPreproc */ "cp": #75715e,
+    /* CommentPreprocFile */ "cpf": #75715e,
+    /* GenericDeleted */ "gd": #f92672,
+    /* GenericEmph */ "ge": #f8f8f2,
+    /* GenericError */ "gr": #f8f8f2,
+    /* GenericHeading */ "gh": #f8f8f2,
+    /* GenericInserted */ "gi": #a6e22e,
+    /* GenericOutput */ "go": #f8f8f2,
+    /* GenericPrompt */ "gp": #f8f8f2,
+    /* GenericStrong */ "gs": #f8f8f2,
+    /* GenericSubheading */ "gu": #75715e,
+    /* GenericTraceback */ "gt": #f8f8f2,
+    /* TextWhitespace */ "w": #f8f8f2
+);
+
+// Border and line number colors
+$syntax-border-color: #3c3d38;
+$syntax-line-number-color: #7f7f7f;
+
+// Extra styles (bold, italic, underline, backgrounds) applied via _custom.scss mixin
+// monokai has no special bold/italic beyond the theme defaults

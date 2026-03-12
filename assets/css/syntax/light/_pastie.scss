@@ -1,0 +1,108 @@
+// Syntax theme: pastie (light)
+// Generated from: hugo gen chromastyles --style=pastie
+
+$code-background-color: #ffffff;
+$code-info-color: #888888;
+
+$code-highlight-color-map: (
+    /* Parentheses */ "p": #000000,
+    /* Keyword */ "k": #008800,
+    /* KeywordConstant */ "kc": #008800,
+    /* KeywordDeclaration */ "kd": #008800,
+    /* KeywordNamespace */ "kn": #008800,
+    /* KeywordPseudo */ "kp": #008800,
+    /* KeywordReserved */ "kr": #008800,
+    /* KeywordType */ "kt": #888888,
+    /* Name */ "n": #000000,
+    /* NameAttribute */ "na": #336699,
+    /* NameBuiltin */ "nb": #003388,
+    /* NameBuiltinPseudo */ "bp": #003388,
+    /* NameClass */ "nc": #bb0066,
+    /* NameConstant */ "no": #003366,
+    /* NameDecorator */ "nd": #555555,
+    /* NameEntity */ "ni": #000000,
+    /* NameException */ "ne": #bb0066,
+    /* NameFunction */ "nf": #0066bb,
+    /* NameFunctionMagic */ "fm": #0066bb,
+    /* NameLabel */ "nl": #336699,
+    /* NameNamespace */ "nn": #bb0066,
+    /* NameOther */ "nx": #000000,
+    /* NameProperty */ "py": #336699,
+    /* NameTag */ "nt": #bb0066,
+    /* NameVariable */ "nv": #336699,
+    /* NameVariableClass */ "vc": #336699,
+    /* NameVariableGlobal */ "vg": #dd7700,
+    /* NameVariableInstance */ "vi": #3333bb,
+    /* NameVariableMagic */ "vm": #336699,
+    /* Literal */ "l": #000000,
+    /* LiteralDate */ "ld": #000000,
+    /* LiteralString */ "s": #dd2200,
+    /* LiteralStringAffix */ "sa": #dd2200,
+    /* LiteralStringBacktick */ "sb": #dd2200,
+    /* LiteralStringChar */ "sc": #dd2200,
+    /* LiteralStringDelimiter */ "dl": #dd2200,
+    /* LiteralStringDoc */ "sd": #dd2200,
+    /* LiteralStringDouble */ "s2": #dd2200,
+    /* LiteralStringEscape */ "se": #0044dd,
+    /* LiteralStringHeredoc */ "sh": #dd2200,
+    /* LiteralStringInterpol */ "si": #3333bb,
+    /* LiteralStringOther */ "sx": #22bb22,
+    /* LiteralStringRegex */ "sr": #008800,
+    /* LiteralStringSingle */ "s1": #dd2200,
+    /* LiteralStringSymbol */ "ss": #aa6600,
+    /* LiteralNumber */ "m": #0000dd,
+    /* LiteralNumberBin */ "mb": #0000dd,
+    /* LiteralNumberFloat */ "mf": #0000dd,
+    /* LiteralNumberHex */ "mh": #0000dd,
+    /* LiteralNumberInteger */ "mi": #0000dd,
+    /* LiteralNumberIntegerLong */ "il": #0000dd,
+    /* LiteralNumberOct */ "mo": #0000dd,
+    /* Operator */ "o": #000000,
+    /* OperatorWord */ "ow": #008800,
+    /* Comment */ "c": #888888,
+    /* CommentHashbang */ "ch": #888888,
+    /* CommentMultiline */ "cm": #888888,
+    /* CommentSingle */ "c1": #888888,
+    /* CommentSpecial */ "cs": #cc0000,
+    /* CommentPreproc */ "cp": #cc0000,
+    /* CommentPreprocFile */ "cpf": #cc0000,
+    /* GenericDeleted */ "gd": #000000,
+    /* GenericEmph */ "ge": #000000,
+    /* GenericError */ "gr": #aa0000,
+    /* GenericHeading */ "gh": #333333,
+    /* GenericInserted */ "gi": #000000,
+    /* GenericOutput */ "go": #888888,
+    /* GenericPrompt */ "gp": #555555,
+    /* GenericStrong */ "gs": #000000,
+    /* GenericSubheading */ "gu": #666666,
+    /* GenericTraceback */ "gt": #aa0000,
+    /* TextWhitespace */ "w": #bbbbbb
+);
+
+$syntax-border-color-light: #e0e0e0;
+$syntax-line-number-color-light: #7f7f7f;
+
+@mixin syntax-extra-styles-light {
+    .err { color: #a61717; background-color: #e3d2d2; }
+    .k, .kc, .kd, .kn, .kr { font-weight: bold; }
+    .kt { font-weight: bold; }
+    .nc { font-weight: bold; }
+    .no { font-weight: bold; }
+    .ne { font-weight: bold; }
+    .nn { font-weight: bold; }
+    .py { font-weight: bold; }
+    .nt { font-weight: bold; }
+    .nf, .fm { font-weight: bold; }
+    .nl { font-style: italic; }
+    .m, .mb, .mf, .mh, .mi, .il, .mo { font-weight: bold; }
+    .s, .sa, .sb, .sc, .dl, .sd, .s2, .sh, .s1 { background-color: #fff0f0; }
+    .se { background-color: #fff0f0; }
+    .si { background-color: #fff0f0; }
+    .sx { background-color: #f0fff0; }
+    .sr { background-color: #fff0ff; }
+    .ss { background-color: #fff0f0; }
+    .cs { background-color: #fff0f0; font-weight: bold; }
+    .cp, .cpf { font-weight: bold; }
+    .gd { background-color: #ffdddd; }
+    .gi { background-color: #ddffdd; }
+}

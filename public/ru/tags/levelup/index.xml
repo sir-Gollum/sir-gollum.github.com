@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Levelup on Андрей Мукомолов</title>
+    <link>http://mukomolov.com/ru/tags/levelup/</link>
+    <description>Recent content in Levelup on Андрей Мукомолов</description>
+    <generator>Hugo</generator>
+    <language>ru</language>
+    <managingEditor>mukomolov@gmail.com (Андрей Мукомолов)</managingEditor>
+    <webMaster>mukomolov@gmail.com (Андрей Мукомолов)</webMaster>
+    <lastBuildDate>Mon, 28 May 2012 21:47:35 +0100</lastBuildDate>
+    <atom:link href="http://mukomolov.com/ru/tags/levelup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coursera и курсы Стенфорда</title>
+      <link>http://mukomolov.com/ru/blog/2012/05/coursera/</link>
+      <pubDate>Mon, 28 May 2012 21:47:35 +0100</pubDate><author>mukomolov@gmail.com (Андрей Мукомолов)</author>
+      <guid>http://mukomolov.com/ru/blog/2012/05/coursera/</guid>
+      <description>&lt;p&gt;Одна из основных вещей, которой запомнится мне эта весна, будет прохождение сразу кучи онлайн-курсов &lt;a href=&#34;http://www.stanford.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Стенфордского университета&lt;/a&gt;, доступных по большей части на &lt;a href=&#34;http://www.coursera.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Coursera&lt;/a&gt;. Кстати, сама Coursera судя по всему, сделана полностью на открытых технологиях и недавно &lt;a href=&#34;http://venturebeat.com/2012/04/18/coursera-raises-16m/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;получила инвестиции&lt;/a&gt; 16 миллионов американских денег.&lt;/p&gt;&#xA;&lt;p&gt;Еще осенью я записался на кучу курсов, большая часть из которых должна была начаться в феврале:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://coursera.org/course/ml&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Machine Learning&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://coursera.org/course/hci&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Human-Computer Interaction&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://coursera.org/course/nlp&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Natural Language Processing&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://wwwcoursera.org/course/algo&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Design and Analysis of Algorithms I&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://coursera.org/course/compilers&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Compilers&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://coursera.org/course/crypto&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Cryptography&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://coursera.org/course/introfinance&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Introduction to Finance&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://venture-lab.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Venture Lab&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Начало курсов задержалось, но в итоге к середине марта запустились два - Natural Language Processing и Design and Analysis of Algorithms I.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

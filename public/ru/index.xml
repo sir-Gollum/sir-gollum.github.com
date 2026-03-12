@@ -1,0 +1,38 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Андрей Мукомолов</title>
+        <link>http://mukomolov.com/ru/</link>
+        <description>Andrey Mukomolov&#39;s personal website and blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>ru</language><managingEditor>mukomolov@gmail.com (Андрей Мукомолов)</managingEditor>
+            <webMaster>mukomolov@gmail.com (Андрей Мукомолов)</webMaster><lastBuildDate>Mon, 15 Jan 2024 10:00:00 &#43;0100</lastBuildDate>
+            <atom:link href="http://mukomolov.com/ru/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Про Moscow Django Meetup</title>
+    <link>http://mukomolov.com/ru/blog/2022/moscow_django_meetup/</link>
+    <pubDate>Tue, 10 Jul 2012 20:20:05 &#43;0200</pubDate>
+    <author>Андрей Мукомолов</author>
+    <guid>http://mukomolov.com/ru/blog/2022/moscow_django_meetup/</guid>
+    <description><![CDATA[<p>До недавнего времени я очень завидовал украинцам, потому что у них было довольно развитое сообщество питонистов. Проводилась куча конференций, из того что помню с ходу - <a href="http://kyivpy.org.ua/" target="_blank" rel="noopener noreffer ">Kiyv.py</a>, <a href="http://kharkivpy.org.ua/" target="_blank" rel="noopener noreffer ">KharkivPy</a>, <a href="http://ua.pycon.org/" target="_blank" rel="noopener noreffer ">PyConUA</a>, наверняка жизнь питоновской тусовки бурлила и на менее официальных встречах. В Москве же ничего подобного и близко не было, хотя довольно много питонистов посещало <a href="http://events.yandex.ru/events/yasubbotnik/" target="_blank" rel="noopener noreffer ">Яндекс.Субботники</a>, <a href="http://events.yandex.ru/events/yac/" target="_blank" rel="noopener noreffer ">YaC</a>, <a href="http://www.devconf.ru/" target="_blank" rel="noopener noreffer ">DevConf</a> и прочие конференции. Как оказалось, завидовал не я один.</p>]]></description>
+</item>
+<item>
+    <title>Coursera и курсы Стенфорда</title>
+    <link>http://mukomolov.com/ru/blog/2012/05/coursera/</link>
+    <pubDate>Mon, 28 May 2012 21:47:35 &#43;0100</pubDate>
+    <author>Андрей Мукомолов</author>
+    <guid>http://mukomolov.com/ru/blog/2012/05/coursera/</guid>
+    <description><![CDATA[<p>Одна из основных вещей, которой запомнится мне эта весна, будет прохождение сразу кучи онлайн-курсов <a href="http://www.stanford.edu/" target="_blank" rel="noopener noreffer ">Стенфордского университета</a>, доступных по большей части на <a href="http://www.coursera.org/" target="_blank" rel="noopener noreffer ">Coursera</a>. Кстати, сама Coursera судя по всему, сделана полностью на открытых технологиях и недавно <a href="http://venturebeat.com/2012/04/18/coursera-raises-16m/" target="_blank" rel="noopener noreffer ">получила инвестиции</a> 16 миллионов американских денег.</p>
+<p>Еще осенью я записался на кучу курсов, большая часть из которых должна была начаться в феврале:</p>
+<ul>
+<li><a href="http://coursera.org/course/ml" target="_blank" rel="noopener noreffer ">Machine Learning</a></li>
+<li><a href="http://coursera.org/course/hci" target="_blank" rel="noopener noreffer ">Human-Computer Interaction</a></li>
+<li><a href="http://coursera.org/course/nlp" target="_blank" rel="noopener noreffer ">Natural Language Processing</a></li>
+<li><a href="http://wwwcoursera.org/course/algo" target="_blank" rel="noopener noreffer ">Design and Analysis of Algorithms I</a></li>
+<li><a href="http://coursera.org/course/compilers" target="_blank" rel="noopener noreffer ">Compilers</a></li>
+<li><a href="http://coursera.org/course/crypto" target="_blank" rel="noopener noreffer ">Cryptography</a></li>
+<li><a href="http://coursera.org/course/introfinance" target="_blank" rel="noopener noreffer ">Introduction to Finance</a></li>
+<li><a href="http://venture-lab.org/" target="_blank" rel="noopener noreffer ">Venture Lab</a></li>
+</ul>
+<p>Начало курсов задержалось, но в итоге к середине марта запустились два - Natural Language Processing и Design and Analysis of Algorithms I.</p>]]></description>
+</item>
+</channel>
+</rss>

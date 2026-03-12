@@ -1,0 +1,145 @@
+// ==============================
+// Override Variables - Warm Chocolate Theme
+// ==============================
+
+// This file is for overriding theme variables
+
+// ========== Global Colors ========== //
+// Color of the background
+$global-background-color: #f2f2f2;
+$global-background-color-dark: #1a1a1a;
+
+// Color of the text
+$global-font-color: #2c2c2c;
+$global-font-color-dark: #d0d0d0;
+
+// Color of the secondary text
+$global-font-secondary-color: #666666;
+$global-font-secondary-color-dark: #999999;
+
+// Color of the link
+$global-link-color: #d04526;
+$global-link-color-dark: #e85a3d;
+
+// Color of the hover link
+$global-link-hover-color: #b8371e;
+$global-link-hover-color-dark: #ed7055;
+
+// Color of the border
+$global-border-color: #e5e5e5;
+$global-border-color-dark: #404040;
+// ========== Global ========== //
+
+// ========== Scrollbar ========== //
+// Color of the scrollbar
+$scrollbar-color: #d2691e;
+
+// Color of the hover scrollbar
+$scrollbar-hover-color: #b8371e;
+// ========== Scrollbar ========== //
+
+// ========== Selection ========== //
+// Color of the selected text
+$selection-color: rgba(208, 69, 38, 0.2);
+$selection-color-dark: rgba(232, 90, 61, 0.25);
+// ========== Selection ========== //
+
+// ========== Header ========== //
+// Color of the header background (between #d2691e and #e79256)
+$header-background-color: #dc7e3a;
+$header-background-color-dark: #2a2a2a;
+
+// Color of the hover header item
+$header-hover-color: #ffffff;
+$header-hover-color-dark: #e85a3d;
+
+// Color of the search background
+$search-background-color: #f5f5f5;
+$search-background-color-dark: #404040;
+// ========== Header ========== //
+
+// ========== Single Content ========== //
+// Color of the single link
+$single-link-color: #d04526;
+$single-link-color-dark: #e85a3d;
+
+// Color of the hover single link
+$single-link-hover-color: #b8371e;
+$single-link-hover-color-dark: #ed7055;
+
+// Color of the table background
+$table-background-color: #fafafa;
+$table-background-color-dark: #2a2a2a;
+
+// Color of the table thead
+$table-thead-color: #f0f0f0;
+$table-thead-color-dark: #404040;
+
+// Color of the blockquote
+$blockquote-color: #d2691e;
+$blockquote-color-dark: #db8750;
+// ========== Single Content ========== //
+
+// ========== Pagination ========== //
+// Color of the link in pagination
+$pagination-link-color: #d04526;
+$pagination-link-color-dark: #e85a3d;
+
+// Color of the hover link in pagination
+$pagination-link-hover-color: #b8371e;
+$pagination-link-hover-color-dark: #ed7055;
+// ========== Pagination ========== //
+
+// ========== Code ========== //
+$code-color: #d04526;
+$code-color-dark: #e85a3d;
+
+// Light theme syntax highlighting.
+// To switch, change the import below. Available themes:
+//   syntax/light/borland          - classic Borland IDE
+//   syntax/light/catppuccin-latte - pastel warm palette
+//   syntax/light/colorful         - vivid multicolor
+//   syntax/light/emacs            - Emacs default
+//   syntax/light/friendly         - soft, readable
+//   syntax/light/github           - GitHub light
+//   syntax/light/hrdark           - high-contrast blue/red
+//   syntax/light/igor             - Igor Pro style
+//   syntax/light/lovelace         - elegant muted tones
+//   syntax/light/manni            - vibrant teal/orange
+//   syntax/light/monokailight     - monokai on light bg
+//   syntax/light/onesenterprise   - bold red/blue minimal
+//   syntax/light/pastie           - pastie.org style
+//   syntax/light/pygments         - Pygments default
+//   syntax/light/tango            - GNOME Tango palette
+//   syntax/light/xcode            - Apple Xcode light
+@import "syntax/light/tango";
+// good ones:
+// monokailight
+// igor
+// pastie
+// tango
+// xcode
+
+
+
+// Dark theme syntax highlighting.
+// To switch, change the import below. Available themes:
+//   syntax/monokai          - classic dark theme
+//   syntax/dracula          - popular purple/pink theme
+//   syntax/gruvbox          - retro warm theme
+//   syntax/github-dark      - GitHub's dark mode
+//   syntax/aura-theme-dark  - vibrant neon theme
+//   syntax/nord             - arctic, cool blue palette
+//   syntax/native           - bold green/orange on dark
+//   syntax/nordic           - warm variant of nord
+//   syntax/onedark          - Atom One Dark
+//   syntax/vulcan           - blue/purple cyberpunk
+//   syntax/xcode-dark       - Apple Xcode dark
+@import "syntax/dark/monokai";
+// ========== Code ========== //
+
+// ========== Title Colors ========== //
+// For headings and titles
+$title-color: #d2691e;
+$title-color-dark: #db8750;
+// ========== Title Colors ========== //

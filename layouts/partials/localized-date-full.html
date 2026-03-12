@@ -1,0 +1,16 @@
+{{- $date := .Date -}}
+{{- $context := .Context -}}
+{{- $lang := $context.Site.Language.Lang | default "en" -}}
+{{- $day := $date.Format "2" -}}
+{{- $year := $date.Format "2006" -}}
+{{- $monthKey := printf "monthFull%s" ($date.Format "Jan") -}}
+
+{{- if eq $lang "ru" -}}
+    {{- /* For Russian: "20 марта 2025" (day + full month in genitive + year) */ -}}
+    {{- $month := i18n $monthKey -}}
+    {{- printf "%s %s %s" $day $month $year -}}
+{{- else -}}
+    {{- /* For English: "20 Mar 2025" (day + abbreviated month + year) */ -}}
+    {{- $month := $date.Format "Jan" -}}
+    {{- printf "%s %s %s" $day $month $year -}}
+{{- end -}}

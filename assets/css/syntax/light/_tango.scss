@@ -1,0 +1,104 @@
+// Syntax theme: tango (light)
+// Generated from: hugo gen chromastyles --style=tango
+
+$code-background-color: #f8f8f8;
+$code-info-color: #8f5902;
+
+$code-highlight-color-map: (
+    /* Parentheses */ "p": #000000,
+    /* Keyword */ "k": #204a87,
+    /* KeywordConstant */ "kc": #204a87,
+    /* KeywordDeclaration */ "kd": #204a87,
+    /* KeywordNamespace */ "kn": #204a87,
+    /* KeywordPseudo */ "kp": #204a87,
+    /* KeywordReserved */ "kr": #204a87,
+    /* KeywordType */ "kt": #204a87,
+    /* Name */ "n": #000000,
+    /* NameAttribute */ "na": #c4a000,
+    /* NameBuiltin */ "nb": #204a87,
+    /* NameBuiltinPseudo */ "bp": #3465a4,
+    /* NameClass */ "nc": #000000,
+    /* NameConstant */ "no": #000000,
+    /* NameDecorator */ "nd": #5c35cc,
+    /* NameEntity */ "ni": #ce5c00,
+    /* NameException */ "ne": #cc0000,
+    /* NameFunction */ "nf": #000000,
+    /* NameFunctionMagic */ "fm": #000000,
+    /* NameLabel */ "nl": #f57900,
+    /* NameNamespace */ "nn": #000000,
+    /* NameOther */ "nx": #000000,
+    /* NameProperty */ "py": #000000,
+    /* NameTag */ "nt": #204a87,
+    /* NameVariable */ "nv": #000000,
+    /* NameVariableClass */ "vc": #000000,
+    /* NameVariableGlobal */ "vg": #000000,
+    /* NameVariableInstance */ "vi": #000000,
+    /* NameVariableMagic */ "vm": #000000,
+    /* Literal */ "l": #000000,
+    /* LiteralDate */ "ld": #000000,
+    /* LiteralString */ "s": #4e9a06,
+    /* LiteralStringAffix */ "sa": #4e9a06,
+    /* LiteralStringBacktick */ "sb": #4e9a06,
+    /* LiteralStringChar */ "sc": #4e9a06,
+    /* LiteralStringDelimiter */ "dl": #4e9a06,
+    /* LiteralStringDoc */ "sd": #8f5902,
+    /* LiteralStringDouble */ "s2": #4e9a06,
+    /* LiteralStringEscape */ "se": #4e9a06,
+    /* LiteralStringHeredoc */ "sh": #4e9a06,
+    /* LiteralStringInterpol */ "si": #4e9a06,
+    /* LiteralStringOther */ "sx": #4e9a06,
+    /* LiteralStringRegex */ "sr": #4e9a06,
+    /* LiteralStringSingle */ "s1": #4e9a06,
+    /* LiteralStringSymbol */ "ss": #4e9a06,
+    /* LiteralNumber */ "m": #0000cf,
+    /* LiteralNumberBin */ "mb": #0000cf,
+    /* LiteralNumberFloat */ "mf": #0000cf,
+    /* LiteralNumberHex */ "mh": #0000cf,
+    /* LiteralNumberInteger */ "mi": #0000cf,
+    /* LiteralNumberIntegerLong */ "il": #0000cf,
+    /* LiteralNumberOct */ "mo": #0000cf,
+    /* Operator */ "o": #ce5c00,
+    /* OperatorWord */ "ow": #204a87,
+    /* Comment */ "c": #8f5902,
+    /* CommentHashbang */ "ch": #8f5902,
+    /* CommentMultiline */ "cm": #8f5902,
+    /* CommentSingle */ "c1": #8f5902,
+    /* CommentSpecial */ "cs": #8f5902,
+    /* CommentPreproc */ "cp": #8f5902,
+    /* CommentPreprocFile */ "cpf": #8f5902,
+    /* GenericDeleted */ "gd": #a40000,
+    /* GenericEmph */ "ge": #000000,
+    /* GenericError */ "gr": #ef2929,
+    /* GenericHeading */ "gh": #000080,
+    /* GenericInserted */ "gi": #00a000,
+    /* GenericOutput */ "go": #000000,
+    /* GenericPrompt */ "gp": #8f5902,
+    /* GenericStrong */ "gs": #000000,
+    /* GenericSubheading */ "gu": #800080,
+    /* GenericTraceback */ "gt": #a40000,
+    /* TextWhitespace */ "w": #f8f8f8
+);
+
+$syntax-border-color-light: #e0e0e0;
+$syntax-line-number-color-light: #7f7f7f;
+
+@mixin syntax-extra-styles-light {
+    .err { color: #a40000; }
+    .k, .kc, .kd, .kn, .kp, .kr, .kt { font-weight: bold; }
+    .nd { font-weight: bold; }
+    .ne { font-weight: bold; }
+    .nt { font-weight: bold; }
+    .ow { font-weight: bold; }
+    .p { font-weight: bold; }
+    .m, .mb, .mf, .mh, .mi, .il, .mo { font-weight: bold; }
+    .o { font-weight: bold; }
+    .sd { font-style: italic; }
+    .c, .ch, .cm, .c1, .cs, .cp, .cpf { font-style: italic; }
+    .ge { font-style: italic; }
+    .go { font-style: italic; }
+    .gs { font-weight: bold; }
+    .gh { font-weight: bold; }
+    .gu { font-weight: bold; }
+    .gt { font-weight: bold; }
+    .gl { text-decoration: underline; }
+}

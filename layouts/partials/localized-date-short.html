@@ -1,0 +1,6 @@
+{{- $date := .Date -}}
+{{- $context := .Context -}}
+{{- $monthKey := printf "month%s" ($date.Format "Jan") -}}
+{{- $month := i18n $monthKey | default ($date.Format "Jan") -}}
+{{- $day := $date.Format "2" -}}
+{{- printf "%s %s" $month $day -}}
