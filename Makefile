@@ -24,7 +24,7 @@ help:
 .PHONY: serve
 ## Serve locally with live reload
 serve:
-	hugo serve --cleanDestinationDir --forceSyncStatic --ignoreCache --noHTTPCache  --disableFastRender -M -D
+	hugo serve --cleanDestinationDir --forceSyncStatic --ignoreCache --noHTTPCache  --disableFastRender --renderToMemory --buildDrafts
 
 .PHONY: new-post
 ## Create a new blog post
@@ -48,7 +48,7 @@ new-post:
 		echo "Error: Post already exists at $$filepath"; \
 		exit 1; \
 	fi; \
-	hugo new "$$filepath" --clock "$${year}-$${month}-$${day}T21:30:00+01:00"; \
+	hugo new "$$filepath" --clock "$${year}-$${month}-$${day}T$$(date +%H:%M:%S%z)"; \
 	echo "Created new post at $$filepath"
 
 .PHONY: deploy-tower
