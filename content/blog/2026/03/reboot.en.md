@@ -17,7 +17,7 @@ Additionally, my old blog was fully in Russian, and since I don't live there for
 
 ### Meet Hugo
 
-I chose Hugo as the new generator because it's fast, stable, and has no dependencies. In the next few days I spent some time choosing a theme to start with (I chose LoveIt) and customizing it. I wanted to keep the overall look and structure of the blog, at least initially, and I think I've managed to it that pretty well. LLMs did a pretty good job at making the customizations I wanted to do.
+I chose [Hugo](https://gohugo.io/) as the new generator because it's fast, stable, and has no dependencies. In the next few days I spent some time choosing a theme to start with (I chose LoveIt) and customizing it. I wanted to keep the overall look and structure of the blog, at least initially, and I think I've managed to it that pretty well. LLMs did a pretty good job at making the customizations I wanted to do.
 
 By far the easiest part was translating old posts into a new language. I did all of that automatically, with some proof-reading. I'll likely keep using this approach in for future posts, except I will start from the English version.
 
