@@ -4,7 +4,7 @@
   "description": "LoveIt theme source file",
   "private": true,
   "devDependencies": {
-    "@algolia/cli": "^4.0.8",
+    "@algolia/cli": "^5.10.5",
     "@babel/cli": "^7.17.10",
     "@babel/core": "^7.17.10",
     "@babel/preset-env": "^7.17.10",
